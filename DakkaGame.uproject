@@ -1,0 +1,91 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{0AEE1EC2-4F83-D98E-6B6A-F2A678E877AD}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "DakkaGame",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"PhoUI"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "PhoUtilities",
+			"Enabled": true
+		},
+		{
+			"Name": "SoundUtilities",
+			"Enabled": true
+		},
+		{
+			"Name": "TimeSynth",
+			"Enabled": true
+		},
+		{
+			"Name": "Synthesis",
+			"Enabled": true
+		},
+		{
+			"Name": "RemoteSession",
+			"Enabled": true
+		},
+		{
+			"Name": "SlateRemote",
+			"Enabled": true
+		},
+		{
+			"Name": "PhoGameplay",
+			"Enabled": true
+		},
+		{
+			"Name": "MagicLeapMedia",
+			"Enabled": false,
+			"SupportedTargetPlatforms": [
+				"Lumin"
+			]
+		},
+		{
+			"Name": "MagicLeap",
+			"Enabled": false,
+			"SupportedTargetPlatforms": [
+				"Lumin"
+			]
+		},
+		{
+			"Name": "PhoAnim",
+			"Enabled": true
+		},
+		{
+			"Name": "PhoInput",
+			"Enabled": true
+		},
+		{
+			"Name": "OculusVR",
+			"Enabled": false,
+			"SupportedTargetPlatforms": [
+				"Win32",
+				"Win64",
+				"Android"
+			]
+		},
+		{
+			"Name": "SteamVR",
+			"Enabled": false,
+			"SupportedTargetPlatforms": [
+				"Win32",
+				"Win64",
+				"Linux",
+				"Mac"
+			]
+		}
+	],
+	"TargetPlatforms": [
+		"Switch"
+	]
+}
